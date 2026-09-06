@@ -42,7 +42,7 @@
                    "repo":  "MaroufAlsubaie/arsubdl",
                    "ref":  "main",
                    "path":  "providers/arsubdl",
-                   "commit":  "5d614a420b43f080801de9a9de25ef8dc117d66c",
+                   "commit":  "e10bf504dadf15fb221442accf38b4cf96cbfe64",
                    "trusted":  false,
                    "catalog_url":  "https://github.com/MaroufAlsubaie/arsubdl/blob/main/catalog.json"
                },
