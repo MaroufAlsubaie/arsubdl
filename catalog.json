@@ -1,0 +1,60 @@
+﻿{
+    "name":  "arSUBDL Catalog",
+    "providers":  [
+                      {
+                          "manifest":  {
+                                           "api_version":  "bazarr.provider-hub.v1",
+                                           "bundle_sha256":  "d9ae387b75b95ada47e826747c51b8f3a67fae2001288b26c46d70af9cd5e8b4",
+                                           "config_schema":  {
+                                                                 "additionalProperties":  false,
+                                                                 "properties":  {
+                                                                                    "api_key":  {
+                                                                                                    "description":  "SubDL API key from your SubDL account.",
+                                                                                                    "secret":  true,
+                                                                                                    "title":  "API key",
+                                                                                                    "type":  "string"
+                                                                                                }
+                                                                                },
+                                                                 "required":  [
+                                                                                  "api_key"
+                                                                              ],
+                                                                 "type":  "object"
+                                                             },
+                                           "dependencies":  {
+                                                                "requirements":  [
+
+                                                                                 ]
+                                                            },
+                                           "description":  "arSUBDL provider using the official SubDL API.",
+                                           "entry_class":  "ArSubDLProvider",
+                                           "entry_module":  "provider",
+                                           "files":  {
+                                                         "provider.py":  "7B4310307FA47F87A5A86725D599983CBB0E442E3E6A8086FF5159CF79B6304F"
+                                                     },
+                                           "languages":  [
+                                                             "ara",
+                                                             "eng"
+                                                         ],
+                                           "name":  "arSUBDL",
+                                           "provider_id":  "arsubdl",
+                                           "schema_version":  1,
+                                           "secret_fields":  [
+                                                                 "api_key"
+                                                             ],
+                                           "source":  {
+                                                          "type":  "github",
+                                                          "repo":  "MaroufAlsubaie/arsubdl",
+                                                          "ref":  "main",
+                                                          "path":  "providers/arsubdl",
+                                                          "commit":  "5d614a420b43f080801de9a9de25ef8dc117d66c",
+                                                          "trusted":  false,
+                                                          "catalog_url":  "https://github.com/MaroufAlsubaie/arsubdl/blob/main/catalog.json"
+                                                      },
+                                           "supported_media":  [
+                                                                   "episode"
+                                                               ],
+                                           "version":  "0.1.0"
+                                       }
+                      }
+                  ]
+}
